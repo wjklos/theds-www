@@ -1,0 +1,12 @@
+{
+    "inventory": [                      
+    {
+        "name": "Black Strap Rum",
+        "type": "Rum",
+        "on_hand": 1,
+        "is_needed": true,
+        "members_only": false,
+        "hard_to_get": true
+    }      
+    ]
+}

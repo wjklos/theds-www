@@ -1,0 +1,12 @@
+{
+    "inventory": [                      
+    {
+        "name": "Angel's Envy Caribbean Cask",
+        "type": "Rye",
+        "on_hand": 1,
+        "is_needed": true,
+        "members_only": true,
+        "hard_to_get": true
+    }     
+]
+}

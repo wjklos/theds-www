@@ -1,0 +1,142 @@
+{
+  "inventory": [
+    {
+      "name": "Blanton's",
+      "type": "Bourbon",
+      "on_hand": 1,
+      "is_needed": true,
+      "members_only": true,
+      "hard_to_get": true
+    },
+    {
+      "name": "Blanton's Gold",
+      "type": "Bourbon",
+      "on_hand": 1,
+      "is_needed": true,
+      "members_only": true,
+      "hard_to_get": true
+    },
+    {
+      "name": "Blanton's Green",
+      "type": "Bourbon",
+      "on_hand": 1,
+      "is_needed": true,
+      "members_only": true,
+      "hard_to_get": true
+    },
+    {
+      "name": "Blanton's Cask Strength",
+      "type": "Bourbon",
+      "on_hand": 1,
+      "is_needed": true,
+      "members_only": true,
+      "hard_to_get": true
+    },
+    {
+      "name": "Bulleit (Orange Label)",
+      "type": "Bourbon",
+      "on_hand": 1,
+      "is_needed": true,
+      "members_only": false,
+      "hard_to_get": false
+    },
+    {
+      "name": "Bulleit (10 Year)",
+      "type": "Bourbon",
+      "on_hand": 1,
+      "is_needed": false,
+      "members_only": false,
+      "hard_to_get": false
+    },    
+    {
+      "name": "Bulleit (Barrel Strength)",
+      "type": "Bourbon",
+      "on_hand": 1,
+      "is_needed": true,
+      "members_only": false,
+      "hard_to_get": true
+    },
+    {
+      "name": "Bulleit (Blender's Select)",
+      "type": "Bourbon",
+      "on_hand": 1,
+      "is_needed": true,
+      "members_only": true,
+      "hard_to_get": true
+    },
+    {
+      "name": "Weller's Reserve (Red)",
+      "type": "Bourbon",
+      "on_hand": 1,
+      "is_needed": true,
+      "members_only": false,
+      "hard_to_get": true
+    },
+    {
+      "name": "Weller's Antique 107 (Green)",
+      "type": "Bourbon",
+      "on_hand": 1,
+      "is_needed": true,
+      "members_only": false,
+      "hard_to_get": true
+    },
+    {
+      "name": "Weller's 12 Year (Black)",
+      "type": "Bourbon",
+      "on_hand": 0,
+      "is_needed": true,
+      "members_only": true,
+      "hard_to_get": true
+    },
+    {
+      "name": "William Larue Weller",
+      "type": "Bourbon",
+      "on_hand": 0,
+      "is_needed": true,
+      "is_expensive": true,
+      "members_only": true,
+      "hard_to_get": true
+    },
+    {
+      "name": "Eagle Rare (10 Year)",
+      "type": "Bourbon",
+      "on_hand": 1,
+      "is_needed": true,
+      "members_only": true,
+      "hard_to_get": true
+    },
+    {
+      "name": "Jefferson's OCEAN",
+      "type": "Bourbon",
+      "on_hand": 1,
+      "is_needed": false,
+      "is_expensive": true,
+      "members_only": false,
+      "hard_to_get": false
+    },  
+    {
+      "name": "Buffalo Trace",
+      "type": "Bourbon",
+      "on_hand": 1,
+      "is_needed": true,
+      "members_only": false,
+      "hard_to_get": false
+    },
+    {
+      "name": "Buffalo Trace (Bourbon Cream)",
+      "type": "Bourbon",
+      "on_hand": 1,
+      "is_needed": true,
+      "members_only": false,
+      "hard_to_get": false
+    },      
+    {
+      "name": "Trail's End",
+      "type": "Bourbon",
+      "on_hand": 1,
+      "is_needed": true,
+      "members_only": false,
+      "hard_to_get": true
+    }                    
+  ]
+}

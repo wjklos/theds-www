@@ -1,0 +1,23 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Drinks on The Drowning Sparrow</title>
+    <link>http://theds.club/drink/</link>
+    <description>Recent content in Drinks on The Drowning Sparrow</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 02 Jul 2021 14:43:14 -0400</lastBuildDate>
+    
+      <atom:link href="http://theds.club/drink/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>The Jaw</title>
+        <link>http://theds.club/drink/the-jaw/</link>
+        <pubDate>Fri, 02 Jul 2021 14:43:14 -0400</pubDate>
+        <guid>http://theds.club/drink/the-jaw/</guid>
+        <description>The Jaw  blah blah blah
+ Pabst Blue Ribbon - 1 can Jack Daniels - 1 shot  </description>
+      </item>
+    
+  </channel>
+</rss>

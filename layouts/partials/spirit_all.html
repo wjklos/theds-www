@@ -1,0 +1,17 @@
+<ul>
+    {{ range $i, $e := (sort .inventory "name") }}
+        {{ if (eq $i 0)}}
+            <h4>{{.type}}</h4>
+        {{ end }}    
+        {{ if .is_needed }}
+            <li>
+                {{.name}}
+            {{ if .hard_to_get }}
+                *
+            {{end}}
+            {{ if .is_expensive }}
+                $
+            {{end}}            
+        {{ end }}    
+ {{ end }}
+</ul>
