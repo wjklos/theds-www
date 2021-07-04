@@ -14,7 +14,7 @@
   <small>
   {{ if (eq .Key "beer")}}Beer is probably not why you're here, but we do have some.  You should consider our beer list as "opportunistic".{{ end }}
   {{ if (eq .Key "beer+")}}A beer, with a little something extra.  Maybe a story, maybe a chaser.  Interesting in any case.{{ end }}
-  {{ if (eq .Key "bourbon")}}The foundation of The Sparrow is comprised of used bourbon bottles. When you see the bar, you'll understand.{{ end }}
+  {{ if (eq .Key "bourbon")}}The spitual foundation of The Sparrow is comprised of used bourbon bottles. When you see the bar, you'll understand.{{ end }}
   {{ if (eq .Key "gin")}}The spirit of choice for two of our Founding Members, Greg & Johnny.  Gin has quickly become a 'goto' spirit for many of our cocktails.{{ end }}
   {{ if (eq .Key "rum")}}Made from essentially fermented sugar sludge. Ask Bill to tell you the only story he knows about rum aging.{{ end }}
   {{ if (eq .Key "tequila")}}Everyone has a 'tequila story'.  It's time to come up with a better one.{{ end }}
@@ -33,4 +33,28 @@
 
     {{ end }}
   </ul>
+
   {{ end }}
+
+  <!-- Throw up a section for non-achollic stuff-->
+
+  {{ range (where .Data.Pages "Type" "posts").GroupByParam "other" }}
+  <strong id="{{ .Key }}">
+    {{ .Key }}
+  </strong><br>
+
+  <small>
+    {{ if (eq .Key "non-alcoholic")}}Thirst quenchers for when you just want to kick back and watch other people circle the drain.{{ end }}
+  </small><br>
+
+  <ul class="posts-list">
+    {{ range .Pages }}
+    <li>
+      <a href="{{ .RelPermalink | relURL }}" title="{{ .Title }}">{{ .Title }}</a>
+      {{ if .Params.other }}<span class="lang">/ {{ .Params.other }}</span>{{ end }}
+      {{ if .Params.price }}<span class="lang">/ <strong style="color:black;">{{ .Params.price }}</strong></span>{{ end }}
+    </li>
+    {{ if .Params.summary }}<span class="lang"><small>{{ .Params.summary }}</small></span><br>{{ end }}
+
+    {{end}}
+  {{end}}

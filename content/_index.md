@@ -5,7 +5,7 @@ slug: /
 ---
 
 
-{{< image src="images/DS-Pride.png" lightbox="true" >}}
+{{< image src="images/DS-Pride.png">}}
 
 # The Drowning Sparrow 
 
