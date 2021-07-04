@@ -1,0 +1,21 @@
+<ul>
+    {{ range $i, $e := (sort .members "lastname") }}
+        {{ if (eq $i 0)}}
+            {{ if (eq .is_owner true)}}
+            <h4>Owners</h4>
+            {{ else }}
+                {{ if (eq .is_founder true)}}
+                <h4>Founders</h4>
+                {{ else }}
+                    {{ if (eq .is_member true)}}
+                        <h4>Members</h4>
+                    {{ end }}
+                {{ end }}
+            {{ end }}
+        {{ end }}    
+        {{ if .is_member }}
+            <li>
+                {{.firstname}} {{.lastname}}          
+        {{ end }}    
+ {{ end }}
+</ul>

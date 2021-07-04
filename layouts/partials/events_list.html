@@ -1,0 +1,25 @@
+  <h2>
+    {{ if eq .Kind "section" }}
+    Events
+    {{ end }}
+  </h2>
+  Here's what's happened, is happening, and what's coming up.  The parties that happen <em><strong>at</strong></em> The Drowning Sparrow throughout the year are 
+  typically not TDS events. They just happen to happen here (like renting the space out for weddings, orgies, etc.).  They will be denoted here as "events" insomuch 
+  as The Drowning Sparrow will be closed to members.  Unless of course they happen to be invited!  
+  <hr>
+  {{ range (where .Data.Pages "Type" "posts").GroupByDate "January 02" }}
+  <strong id="{{ .Key }}">
+    {{ .Key }}
+  </strong><br>
+
+  <ul class="posts-list">
+    {{ range .Pages }}
+    <li>
+      <a href="{{ .RelPermalink | relURL }}" title="{{ .Title }}">{{ .Title }}</a>
+      {{ if .Params.members }}<span class="lang">/ {{ .Params.members }}</span>{{ end }}
+    </li>
+    {{ if .Params.summary }}<span class="lang"><small>{{ .Params.summary }}</small></span><br>{{ end }}
+
+    {{ end }}
+  </ul>
+  {{ end }}

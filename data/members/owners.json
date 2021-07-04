@@ -1,0 +1,28 @@
+{
+    "members": [                      
+    {
+        "firstname": "Kate",
+        "lastname": "Harshman",
+        "email": "",
+        "pronouns": "she/her/hers",
+        "phone": "(614) 668-3606",
+        "is_active": true,
+        "is_owner": true,
+        "is_founder": true,
+        "is_member": true,
+        "the_usual": ""
+    },
+    {
+        "firstname": "Bill",
+        "lastname": "Klos",
+        "pronouns": "he/him/his",
+        "email": "wjklos@gmail.com",
+        "phone": "(513) 238-7707",
+        "is_active": true,
+        "is_owner": true,
+        "is_founder": true,
+        "is_member": true,
+        "the_usual": ""
+    }       
+]
+}

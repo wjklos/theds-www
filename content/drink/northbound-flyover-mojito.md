@@ -11,10 +11,12 @@ summary: A light, mid-western perspective on the Caribbean classic using local b
 ---
 ## Northbound Flyover Mojito
 ---
-All the snow birds are coming back home for the summer.  They stop just north of here to rest before flying over Lake Erie.  You've got nowhere to be for the foreseeable future, that's why you're here.  So rest a bit.  Enjoy the sun and humidity.  The next time you comeback, we may be getting ready to the southbound journey.
+All the snow birds are coming back home for the summer.  They stop just north of here to rest before flying over Lake Erie.  You've got nowhere to be for the foreseeable future, that's why you're here.  So rest a bit.  Enjoy the sun and humidity.  The next time you comeback, we may be getting ready to do the southbound journey.
 
 * Bacardi White Rum
 * Blackberry Syrup (locally sourced!)
 * Mint Simple Syrup (locally sourced as well!)
+* Ginger Ale
+* Lime Juice
 
 Feel free to make any rum substitutions you would like, but this drink has been tailored for white rum.
