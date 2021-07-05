@@ -5,7 +5,7 @@ slug: /
 ---
 
 
-{{< image src="images/DS-America.png">}}
+{{< image src="images/DS-Standard.png">}}
 
 # The Drowning Sparrow 
 

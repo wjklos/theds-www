@@ -1,0 +1,44 @@
+{
+    "transactions": [                      
+    {
+        "mbrid": "js",
+        "drinkid": "manhattan",
+        "date": "2021-07-04"
+    },
+    {
+        "mbrid": "js",
+        "drinkid": "old-world-sparrow",
+        "date": "2021-07-04"
+    },
+    {
+        "mbrid": "js",
+        "drinkid": "averys-aviary",
+        "date": "2021-07-04"
+    },
+    {
+        "mbrid": "js",
+        "drinkid": "northbound-flyover-mojito",
+        "date": "2021-07-04"
+    },    
+    {
+        "mbrid": "gh",
+        "drinkid": "manhattan",
+        "date": "2021-07-04"
+    },
+    {
+        "mbrid": "gh",
+        "drinkid": "old-world-sparrow",
+        "date": "2021-07-04"
+    },
+    {
+        "mbrid": "gh",
+        "drinkid": "averys-aviary",
+        "date": "2021-07-04"
+    },
+    {
+        "mbrid": "gh",
+        "drinkid": "northbound-flyover-mojito",
+        "date": "2021-07-04"
+    }    
+]
+}
