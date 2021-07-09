@@ -17,7 +17,21 @@
       "service": "Cognito",
       "providerPlugin": "awscloudformation",
       "dependsOn": [],
-      "customAuth": false
+      "customAuth": false,
+      "output": {
+        "UserPoolId": "us-east-2_knoheHlKw",
+        "AppClientIDWeb": "382isqprp1cbrgbpksee9gmbma",
+        "AppClientID": "3uejua1pejdbuc6vbvuk89jk72",
+        "IdentityPoolId": "us-east-2:a4ade979-94cf-4240-8836-d8cd5e88f62e",
+        "UserPoolArn": "arn:aws:cognito-idp:us-east-2:079469020281:userpool/us-east-2_knoheHlKw",
+        "IdentityPoolName": "thedswww907f77f7_identitypool_907f77f7__prod",
+        "UserPoolName": "thedswww907f77f7_userpool_907f77f7"
+      },
+      "lastPushTimeStamp": "2021-07-09T20:14:39.590Z",
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-thedswww-prod-143650-deployment/amplify-cfn-templates/auth/thedswww907f77f7-cloudformation-template.yml",
+        "logicalId": "auththedswww907f77f7"
+      }
     }
   }
 }
