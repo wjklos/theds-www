@@ -8,10 +8,10 @@
   "javascript": {
     "framework": "none",
     "config": {
-      "SourceDir": "src",
-      "DistributionDir": "dist",
-      "BuildCommand": "npm run-script build",
-      "StartCommand": "npm run-script start"
+      "SourceDir": "content",
+      "DistributionDir": "public",
+      "BuildCommand": "hugo",
+      "StartCommand": "hugo server --port 8080"
     }
   }
 }
