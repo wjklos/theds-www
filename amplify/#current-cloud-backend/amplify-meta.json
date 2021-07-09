@@ -27,7 +27,7 @@
         "IdentityPoolName": "thedswww907f77f7_identitypool_907f77f7__prod",
         "UserPoolName": "thedswww907f77f7_userpool_907f77f7"
       },
-      "lastPushTimeStamp": "2021-07-09T18:46:31.258Z",
+      "lastPushTimeStamp": "2021-07-09T20:21:10.764Z",
       "providerMetadata": {
         "s3TemplateURL": "https://s3.amazonaws.com/amplify-thedswww-prod-143650-deployment/amplify-cfn-templates/auth/thedswww907f77f7-cloudformation-template.yml",
         "logicalId": "auththedswww907f77f7"
