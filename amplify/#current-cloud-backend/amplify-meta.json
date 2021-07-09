@@ -18,11 +18,6 @@
       "providerPlugin": "awscloudformation",
       "dependsOn": [],
       "customAuth": false,
-      "providerMetadata": {
-        "s3TemplateURL": "https://s3.amazonaws.com/amplify-thedswww-test-143111-deployment/amplify-cfn-templates/auth/thedswww907f77f7-cloudformation-template.yml",
-        "logicalId": "auththedswww907f77f7"
-      },
-      "lastPushTimeStamp": "2021-07-09T18:44:00.689Z",
       "output": {
         "UserPoolId": "us-east-2_m0TLLoEC6",
         "AppClientIDWeb": "332qtbd09ed2g3mpbruhodh32b",
@@ -31,6 +26,11 @@
         "UserPoolArn": "arn:aws:cognito-idp:us-east-2:079469020281:userpool/us-east-2_m0TLLoEC6",
         "IdentityPoolName": "thedswww907f77f7_identitypool_907f77f7__test",
         "UserPoolName": "thedswww907f77f7_userpool_907f77f7"
+      },
+      "lastPushTimeStamp": "2021-07-09T20:15:03.583Z",
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-thedswww-test-143111-deployment/amplify-cfn-templates/auth/thedswww907f77f7-cloudformation-template.yml",
+        "logicalId": "auththedswww907f77f7"
       },
       "lastPushDirHash": "J2VXJQw8EmqcXDfGiWivCHiy4gU="
     }
