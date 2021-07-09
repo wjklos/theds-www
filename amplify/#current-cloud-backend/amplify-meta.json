@@ -1,38 +1,15 @@
 {
   "providers": {
     "awscloudformation": {
-      "AuthRoleName": "amplify-thedswww-dev-133312-authRole",
-      "UnauthRoleArn": "arn:aws:iam::079469020281:role/amplify-thedswww-dev-133312-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::079469020281:role/amplify-thedswww-dev-133312-authRole",
+      "AuthRoleName": "amplify-thedswww-test-143111-authRole",
+      "UnauthRoleArn": "arn:aws:iam::079469020281:role/amplify-thedswww-test-143111-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::079469020281:role/amplify-thedswww-test-143111-authRole",
       "Region": "us-east-2",
-      "DeploymentBucketName": "amplify-thedswww-dev-133312-deployment",
-      "UnauthRoleName": "amplify-thedswww-dev-133312-unauthRole",
-      "StackName": "amplify-thedswww-dev-133312",
-      "StackId": "arn:aws:cloudformation:us-east-2:079469020281:stack/amplify-thedswww-dev-133312/be9bbff0-e0db-11eb-beac-0281aed4af26",
+      "DeploymentBucketName": "amplify-thedswww-test-143111-deployment",
+      "UnauthRoleName": "amplify-thedswww-test-143111-unauthRole",
+      "StackName": "amplify-thedswww-test-143111",
+      "StackId": "arn:aws:cloudformation:us-east-2:079469020281:stack/amplify-thedswww-test-143111/d6cc66d0-e0e3-11eb-845f-0625cae404e2",
       "AmplifyAppId": "d33lfub0ozgtoy"
-    }
-  },
-  "auth": {
-    "thedswww907f77f7": {
-      "service": "Cognito",
-      "providerPlugin": "awscloudformation",
-      "dependsOn": [],
-      "customAuth": false,
-      "providerMetadata": {
-        "s3TemplateURL": "https://s3.amazonaws.com/amplify-thedswww-dev-133312-deployment/amplify-cfn-templates/auth/thedswww907f77f7-cloudformation-template.yml",
-        "logicalId": "auththedswww907f77f7"
-      },
-      "lastPushTimeStamp": "2021-07-09T17:52:58.416Z",
-      "output": {
-        "UserPoolId": "us-east-2_eN935b3Ou",
-        "AppClientIDWeb": "60sdmi6t84lj6rnfnjllm1njb6",
-        "AppClientID": "3opb03mtuvjlauer6vdoeaf4j8",
-        "IdentityPoolId": "us-east-2:2b7993f1-342b-428d-931d-a47780fb5313",
-        "UserPoolArn": "arn:aws:cognito-idp:us-east-2:079469020281:userpool/us-east-2_eN935b3Ou",
-        "IdentityPoolName": "thedswww907f77f7_identitypool_907f77f7__dev",
-        "UserPoolName": "thedswww907f77f7_userpool_907f77f7"
-      },
-      "lastPushDirHash": "J2VXJQw8EmqcXDfGiWivCHiy4gU="
     }
   }
 }
