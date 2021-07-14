@@ -7,7 +7,7 @@ scripts:
     local:
         - kool start
         - kool run dev
-    publish:
+    pubdev:
         - kool start
         - git push origin dev
         - amplify push
