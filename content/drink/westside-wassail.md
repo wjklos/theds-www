@@ -2,7 +2,7 @@
 title: "Westside Wassail"
 date: 2021-12-11
 publishdate: 2021-12-11
-expirydate: 2021-12-11
+expirydate: 2021-12-12
 type: posts
 liquor: rye
 season: winter
