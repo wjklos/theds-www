@@ -1,10 +1,1 @@
-{
-  "auth": {
-    "thedswww907f77f7": {
-      "service": "Cognito",
-      "providerPlugin": "awscloudformation",
-      "dependsOn": [],
-      "customAuth": false
-    }
-  }
-}
+{}
